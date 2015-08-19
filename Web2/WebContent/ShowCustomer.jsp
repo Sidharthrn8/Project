@@ -39,10 +39,10 @@ xmlhttp.send();
 <form action=""> 
 <select name="customers" onchange="showCustomer(this.value)">
 <option value="">Select a customer:</option>
-<option value="Alana">Alana</option>
+<option value="John">John</option>
 <option value="Kevin">Kevin</option>
 <option value="MILLER">MILLER</option>
-<option value="TURNER">TURNER</option>
+<option value="Steff">Steff</option>
 </select> 
 
 <div id="txtHint">Customer info will be listed here...</div>
