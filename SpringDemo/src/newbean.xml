@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="WhatsAppService" class="org.mycomapny.WhatsAppService">
+<property name="reciverName" value="Sid"/>
+<property name="msg" value="Hi"/>
+</bean>
+<bean id="EmailService" class="org.mycomapny.EmailService">
+<property name="reciverName" value="Mandy"/>
+<property name="msg" value="Hi"/>
+</bean>
+<bean id="TwitterService" class="org.mycomapny.TwitterService">
+<property name="reciverName" value="Arpit"/>
+<property name="msg" value="Hi"/>
+</bean>
+</beans>
+

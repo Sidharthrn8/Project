@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id = "trainee" class = "org.mycomapny.TrainingNew">
+<constructor-arg index="0" value ="Sid"/>
+<constructor-arg index ="1" value ="Hyderabad"/>
+<property name ="List">
+<list>
+<ref bean ="add1"/>
+<ref bean ="add2"/>
+</list>
+
+</property>
+</bean>
+<bean id = "add1" class = "org.mycomapny.ListAdd">
+<property name = "phone" value ="2640840"/>
+<property name = "home" value ="shimla"/>
+
+</bean>
+
+<bean id = "add2" class = "org.mycomapny.ListAdd">
+<property name = "phone" value ="2658421"/>
+<property name = "home" value ="chandigarh"/>
+
+</bean>
+
+</beans>
