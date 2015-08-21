@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4621" started-at="2015-08-19T12:21:32Z" finished-at="2015-08-19T12:21:36Z">
+  <suite name="Default suite" duration-ms="13637" started-at="2015-08-20T07:10:58Z" finished-at="2015-08-20T07:11:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4621" started-at="2015-08-19T12:21:32Z" finished-at="2015-08-19T12:21:36Z">
+    <test name="Default test" duration-ms="13637" started-at="2015-08-20T07:10:58Z" finished-at="2015-08-20T07:11:11Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="testlog()[pri:0, instance:TestClass@998c805]" name="testlog" is-config="true" duration-ms="4356" started-at="2015-08-19T17:51:32Z" finished-at="2015-08-19T17:51:36Z">
+        <test-method status="PASS" signature="testlog()[pri:0, instance:TestClass@d73c52f]" name="testlog" is-config="true" duration-ms="12888" started-at="2015-08-20T12:40:58Z" finished-at="2015-08-20T12:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlog -->
-        <test-method status="PASS" signature="testcheck()[pri:0, instance:TestClass@998c805]" name="testcheck" duration-ms="111" started-at="2015-08-19T17:51:36Z" finished-at="2015-08-19T17:51:36Z">
+        <test-method status="PASS" signature="testcheck()[pri:0, instance:TestClass@d73c52f]" name="testcheck" duration-ms="577" started-at="2015-08-20T12:41:11Z" finished-at="2015-08-20T12:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcheck -->
-        <test-method status="PASS" signature="testend()[pri:0, instance:TestClass@998c805]" name="testend" is-config="true" duration-ms="141" started-at="2015-08-19T17:51:36Z" finished-at="2015-08-19T17:51:36Z">
+        <test-method status="PASS" signature="testend()[pri:0, instance:TestClass@d73c52f]" name="testend" is-config="true" duration-ms="156" started-at="2015-08-20T12:41:11Z" finished-at="2015-08-20T12:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testend -->
